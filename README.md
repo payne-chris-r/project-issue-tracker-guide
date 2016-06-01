@@ -16,59 +16,58 @@ this will help make the process more efficient
 by allowing the team to spend most of its time on hard issues,
 rather than easy ones.
 
-1.  Run your linter.
+### 1.  Run your linter
 
-    It sounds obvious,
-    but being consistent with this will save everyone a lot of time.
-    Whether you use the linter built into Atom, `grunt nag`, `rubocop`,
-    or something else,
+  It sounds obvious, but being consistent with this will save everyone a lot of
+  time. Whether you use the linter built into Atom, `grunt nag`, `rubocop`, or
+  something else.
 
-1.  If you have tests, run them.
+### 2.  If you have tests, run them
 
-    Test your front-end with `grunt test`; test your back-end with either
-    `bundle exec rspec` (Rails) or `jasmine-node spec` (Express).
+  Test your front-end with `grunt test`; test your back-end with either
+  `bundle exec rspec` (Rails) or `jasmine-node spec` (Express).
 
-1.  If you have an error message, read the error!
+### 3. If you have an error message, read the error
 
-    Error messages are great, because they tell you what's going wrong.
-    Take note of
+  Error messages are great, because they tell you what's going wrong.
+  Take note of
     (a) what type of error you have,
     (b) what file it occurred in, and
     (c) the line and character numbers at which the error occurred.
 
-1.  At least once, try using your debugger to see when the error appears.
+### 4. Use your debugger to see where the error appears
 
-    Debugging tools exist for a reason! Drop in a `debugger;` (JS)
-    or a `binding.pry` (Ruby) and see if you can figure out
-    how far the program runs before it hits the error.
-    This can also help you check the values of variables as you go.
+  Debugging tools exist for a reason! Drop in a `debugger;` (JS)
+  or a `binding.pry` (Ruby) and see if you can figure out
+  how far the program runs before it hits the error.
+  This can also help you check the values of variables as you go.
 
-1.  Read through the documentation.
+### 5. Read through the documentation
 
-    Every tool we use has some sort of documentation available.
-    Many documentation sources even implements a search feature,
-    so that you don't have to go digging. _**Read them carefully!**_
-    The function signatures in particular are very useful
-    since they explain what inputs a function is supposed to take;
-    passing a function the wrong input value(s) is a very common error.
+  Every tool we use has some sort of documentation available.
+  Many documentation sources even implements a search feature,
+  so that you don't have to go digging. _**Read them carefully!**_
+  The function signatures in particular are very useful
+  since they explain what inputs a function is supposed to take;
+  passing a function the wrong input value(s) is a very common error.
 
-1.  Search Google and Stack Overflow for your issue.
+### 6. Search Google and Stack Overflow for your issue
 
-    You're probably not the first person to ever encounter your issue.
-    Try copying the content of your error message (in quotes) into a search bar;
-    you might be surprised what turns up.
+  You're probably not the first person to ever encounter your issue.
+  Try copying the content of your error message (in quotes) into a search bar;
+  you might be surprised what turns up.
 
-1.  Ask a peer.
+### 7. Ask a peer
 
-    See if any of the other developers have encountered a similar issue -
-    you are all working on more-or-less the same thing,
-    so they may already have the solution to your specific problem.
+  See if any of the other developers have encountered a similar issue -
+  you are all working on more-or-less the same thing,
+  so they may already have the solution to your specific problem.
 
-1.  Read/search closed issues.
+### 8. Read/search closed issues
 
-    Similar to the previous one, but in case other developers aren't around,
-    you can actually sift through other issues and see if a solution exists
-    by clicking on `Issues` and then `3 Closed` at the top.
+  Similar to the previous one, but in case other developers aren't around, you
+  can actually sift through other issues and see if a solution exists by
+  clicking on `Issues` and then `3 Closed` at the top.
 
 ## How to Use the Issue Tracker
 
